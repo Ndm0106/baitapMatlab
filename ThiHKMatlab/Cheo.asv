@@ -1,0 +1,15 @@
+function  B  = Cheo( A )
+%UNTITLED5 Summary of this function goes here
+%   Detailed explanation goes here
+A=diag(A)';
+B=[];
+m=1;
+for i=1:length(A)
+    if mod(A(i),2)==0
+        B(m)=A(i);
+        m=m+1;
+    end
+end
+disp(B)
+end
+

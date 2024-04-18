@@ -1,0 +1,17 @@
+x = [3 1 5 7 9 2 6];
+fprintf('x(3)= ');
+ disp(x(3));
+ fprintf('(1:7) = ');
+ disp((1:7));
+ fprintf('x(1:end)= ');
+ disp(x(1:end));
+ fprintf('x(1:end-1)= ');
+ disp(x(1:end-1));
+ fprintf('(x(6:-2:1)= ');
+ disp(x(6:-2:1));
+ fprintf('x([1 6 2 1 1])= ');
+ disp(x([1 6 2 1 1]));
+ fprintf('sum(x)= ');
+ disp((sum(x));
+ disp(min(x));
+ disp(max(x));

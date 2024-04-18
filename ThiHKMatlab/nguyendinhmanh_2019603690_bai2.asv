@@ -1,0 +1,34 @@
+x=linspace(0,4*pi);
+y1=x.*sin(x);
+y2=10*cos(3*x);
+y3=1-sin(x);
+y4=cos(x.*x.*x);
+
+figure(1)
+plot(x,y1,'-.rv','LineWidth',6);
+title('ham so x*sin(x)');
+xlabel('x');
+ylabel('y');
+legend('x*sin(x)');
+figure(2)
+subplot(1,2,1);
+plot(x,y2,'g*','LineWidth',3);
+title('ham so y=10cos(3x)');
+xlabel('truc x');
+ylabel('truc y');
+legend('y=10cos(3x)');
+hold on
+subplot(1,
+plot(x,y3,'--ys','LineWidth',5);
+axis([0 10 -5 5]);
+title('ham so y=1-sinx');
+xlabel('truc x');
+ylabel('truc y');
+legend('y=1-sinx');
+figure(3)
+plot(x,y4,'+b','LineWidth',3);
+title('ham so y=cos(x^3)');
+xlabel('truc x');
+ylabel('truc y');
+legend('y=cos(x^3)');
+

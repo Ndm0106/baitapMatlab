@@ -1,0 +1,15 @@
+[x,y]=meshgrid([-2:0.1:2]);
+a=tan(sqrt(x^2+y^2));
+b=2*x^2+2*y^2;
+figure(1);
+plot3(x,y,a);
+xlabel('truc x');
+ylabel('truc y');
+zlabel('truc z');
+title('ham a');
+figure(2);
+plot3(x,y,b);
+xlabel('truc x');
+ylabel('truc y');
+zlabel('truc z');
+title('ham b');

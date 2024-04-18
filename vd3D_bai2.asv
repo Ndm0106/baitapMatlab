@@ -1,0 +1,5 @@
+[x,y]=meshgrid(-3:0.3:3);
+a=sin(sqrt(x^2+y^2));
+h1=plot3(x,y,a);
+b=x^2+y^2;
+h2=plot3(x,y,b);

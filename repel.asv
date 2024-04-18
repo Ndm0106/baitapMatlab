@@ -1,0 +1,7 @@
+function d=repel(b,m)
+
+    for j=1:m
+        d(j)=b(i)
+    end
+end
+end

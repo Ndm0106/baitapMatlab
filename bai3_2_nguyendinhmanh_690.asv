@@ -1,0 +1,15 @@
+z=input('nhap z: ');
+if z<5
+    w=2*z;
+elseif z<10
+    w=9-z;
+elseif z<100
+        w=sqrt(z);
+else
+        w=z;
+end
+disp(w);
+%a z=1 thi roi vao truong hop z<5 => w=2*z=2;
+%a z=9 thi roi vao truong hop z<10 => w=9-z=0;
+%a z=60 thi roi vao truong hop z<100 => w=sqrt(z)=7.74;
+%a z=200 thi roi vao truong hop z<5 => w=2*z=2;

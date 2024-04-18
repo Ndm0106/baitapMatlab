@@ -1,0 +1,8 @@
+a=input('nhap a: ');
+b=input('nhap b: ');
+x1=linspace(0,15);
+y1=a*x.^2+b;
+plot(x1,y1,'.-s');
+
+x2=
+y2=

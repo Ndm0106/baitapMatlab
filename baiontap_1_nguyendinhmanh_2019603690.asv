@@ -1,0 +1,7 @@
+x=linspace(0,3*pi);
+z=3*tan(x)+ 3*cos(x);
+y=sin(2*x);
+plot(x,z,'.-b^','linewidth',8)
+
+
+,y,'--rs','linewidth',8);
